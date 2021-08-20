@@ -12,18 +12,22 @@
 \lhead{Universal Multiple-Octet Coded Character Set}
 \cfoot{\thepage}
 \usepackage{caption}
-\usepackage{hyperref}
+\usepackage[pdfusetitle]{hyperref}
 \usepackage{graphicx}
 \graphicspath{{./images/}}
 \usepackage{cite}
 \begin{document}
 
+\title{Glyph issue for U+30759}
+\author{Huáng Jùnliàng (黃俊亮)}
+
+\makeatletter
 \begin{tabular}{l l}
 Doc Type: & Working Group Document \\
 
-Title: & Glyph issue for U+30759 \\
+Title: & \@title\footnotemark \\
 
-Source: & Huáng Jùnliàng (黃俊亮)  \\
+Source: & \@author \\
 
 Status: & Individual contribution \\
 
@@ -31,6 +35,8 @@ Action required: & To be considered by the IRG and UTC \\
 
 Date: & \today \\
 \end{tabular}
+\makeatother
+\footnotetext{Sources of this document are available online: \url{https://github.com/JLHwung/IRGN2511}.}
 
 \section{Introduction}
 The glyph of U+30759 appears to be unattested in multiple historical documents. We should either update the glyph or encode the correct form.
